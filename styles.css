@@ -1,4 +1,9 @@
-#root{z-index:1;}
+body{background:black;}
+#root{
+	margin-top:400px;
+z-index:1;
+}
+
 #overlay-zone{
 position: fixed;
 	background-color:black;
@@ -9,7 +14,8 @@ position: fixed;
 }
 
 .btn-clear {
-	z-index: 99999;
+	position: absolute;
+	z-index: 99999999;
 	top: 10px;
 	right: 20px;
 	height:40px;
@@ -32,6 +38,7 @@ highlight-chat {
 	z-index:99999999999;
 	overflow: hidden;
 	margin: 0px;
+	padding: 40px 50px 40px 220px;
 	background-color: #000; /* black background for Luma key */
 	color: #fff;
 	font-size: 30px;
