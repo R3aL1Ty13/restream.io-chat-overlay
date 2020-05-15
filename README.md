@@ -1,3 +1,6 @@
+Restream.io Chat Overlay
+==========================
+
 On behalf of a [videographer friend](https://techincaraibes.fr), I adapted @aaronpk 's youtube-chat-overlay for Restream.io
 Apply the same process as below on your https://chat.restream.io/chat page 
 
