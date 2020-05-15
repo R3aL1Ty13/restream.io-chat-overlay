@@ -1,16 +1,20 @@
-body {
-    background-color: #000;
+#root{z-index:1;}
+#overlay-zone{
+position: fixed;
+	background-color:black;
+	top:0;
+	width:100%;
+	height: calc(100vh - 600px) !important;
+	z-index:10;
 }
-yt-live-chat-app {
-	margin-top: 400px;
-	height: calc(100vh - 400px) !important;
-}
+
 .btn-clear {
-	position: absolute;
 	z-index: 99999;
-	bottom: 70px;
+	top: 10px;
 	right: 20px;
+	height:40px;
 	font-size: 30px;
+	background-color: white;
 }
 .show-comment {
     background-color: #55de55 !important;
@@ -28,7 +32,6 @@ highlight-chat {
 	z-index:99999999999;
 	overflow: hidden;
 	margin: 0px;
-	padding: 40px 50px 40px 220px;
 	background-color: #000; /* black background for Luma key */
 	color: #fff;
 	font-size: 30px;
