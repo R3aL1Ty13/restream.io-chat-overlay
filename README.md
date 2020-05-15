@@ -5,14 +5,13 @@ On behalf of a [videographer friend](https://techincaraibes.fr), I adapted @aaro
 Apply the same process as below on your https://chat.restream.io/chat page 
 
 
-YouTube Chat Overlay
-====================
+## YouTube Chat Overlay
 
 This CSS and JS turns the popout YouTube chat window into something that can be used to show chat comments greenscreened onto a video.
 
 ![chat-screenshot](chat-screenshot.jpg)
 
-## Installation
+### Installation
 
 Install the [Styler Pro](https://chrome.google.com/webstore/detail/styler-pro/hbhkfnpodhdcaophahpkiflechaoddoi?hl=en) browser extension.
 
@@ -34,7 +33,7 @@ You'll next need to bring that into your video stream and key it out, which will
 * x: 0, y: -11.1
 
 
-## Credits
+### Credits
 
 Most of this code came from a video by [ROJ BTS](https://www.youtube.com/watch?v=NHy9D4ClTvc), so huge thanks to him for the CSS and JS!
 
