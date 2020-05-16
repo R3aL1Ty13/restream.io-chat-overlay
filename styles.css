@@ -1,7 +1,7 @@
 body{background:black;}
 #root{
-	margin-top:400px;
-z-index:1;
+	margin-top:calc(100vh - 600px);
+	z-index:1;
 }
 
 #overlay-zone{
